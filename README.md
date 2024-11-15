@@ -4,6 +4,7 @@ Supplementary code for An Economical Approach to Design Posterior Analyses manus
 Supplementary code for Posterior Ramifications of Prior Dependence Structures manuscript
 
 There are two code files for this manuscript.
+
     - 01-logistic: reproduces the results in Section 5.1 of the main text
     - 02-linear: reproduces the results in Section 5.2 of the main text
 
