@@ -1,0 +1,11 @@
+model {
+   for ( i in 1 : N ) 
+   { 
+      Y[i] ~ dbern( P[i] )
+      logit(P[i]) <-  beta0 + beta1*X1[i] + beta2*X2[i]
+   }
+   # Priors
+    beta0~dnorm(m0, p0)
+    beta1~dnorm(m1, p1)
+    beta2~dnorm(m2, p2)
+}
